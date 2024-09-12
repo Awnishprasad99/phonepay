@@ -37,7 +37,7 @@ const Become = () => {
                 </p>{" "}
               </div>
             </div>
-            <div className="w-1/2 aspect-video border-[5px] border-orange object-cover rounded-2x border-orange-600"><video controls src={video} autoPlay={true}></video></div>
+            <div className="rounded-2xl w-1/2 aspect-video border-[5px] border-orange object-cover rounded-2x border-orange-600"><video controls src={video} autoPlay={true}></video></div>
           
           </div>
           {/*  */}
