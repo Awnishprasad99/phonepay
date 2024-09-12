@@ -6,6 +6,8 @@ import Hardware from './Hardware';
 import Shawn from './Shawn';
 import Marketing from './Marketing';
 import Become from './Become'
+import Last from './Last';
+
 
 
 
@@ -21,8 +23,9 @@ const MainPage = () => {
 <Hardware/>
 <Shawn/>
 <Marketing/>
-
 <Become/>
+<Last/>
+
 
 
 
