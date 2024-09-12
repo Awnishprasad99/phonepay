@@ -4,6 +4,9 @@ import Footer from './Footer';
 import Dashboard from './Dashboard';
 import Hardware from './Hardware';
 import Shawn from './Shawn';
+import Marketing from './Marketing';
+import Become from './Become'
+
 
 
 const MainPage = () => {
@@ -17,6 +20,12 @@ const MainPage = () => {
 <Dashboard/>
 <Hardware/>
 <Shawn/>
+<Marketing/>
+
+<Become/>
+
+
+
 </div>
      
      

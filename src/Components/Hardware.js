@@ -6,7 +6,7 @@ import vector3 from "../asset/vector3.png";
 
 const Hardware = () => {
   return (
-    <div className="bg-[#034d12]   ">
+    <div className="bg-[#034d12] bg-gradient-to- from-[#011b05]  ">
       <div className="font-bold text-[60px] pt-16 bg-[#034e13]  bg-gradient-to-b from-[#012b0a] via-[#012b0a] text-white ">
         <h1 className="text-center ">
           {" "}
