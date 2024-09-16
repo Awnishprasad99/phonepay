@@ -2,7 +2,8 @@ import React from "react";
 import fee from "../asset/fee.png";
 import by from "../asset/by.png";
 import social from "../asset/social.png"
-import rectangle from "../asset/Rectangle.png"
+
+import Input from './Input.js'
 
 const Last = () => {
   return (
@@ -27,7 +28,7 @@ const Last = () => {
         <p>Merchant Application</p>
       </div>
    
-<div><img className="w-[200px] pt-24 ml-20" src={rectangle} alt="" /></div>
+<div className=""><Input/></div>
     <div className="ml-10 space-y-5 py-20 ">
         <nav><p className="text-white text-center text-xl ml-5 ">FOLLOW {" "} US {" "} ON</p></nav>
         <nav className="flex justify-center items-center"><img src={social} className="" alt="" /></nav>
