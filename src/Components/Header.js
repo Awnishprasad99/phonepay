@@ -30,11 +30,11 @@ const Header = () => {
 
     </div>
 
-    <div className="flex justify-between bg-gradient-to-tr from-[#011b06] ">
-        <div className="text-7xl pl-10 pt-10">
-        <span className="inline-block flex  space-x-5 "><h1 className="text-white">We</h1><h1 className="text-[#319d47]">Changed</h1></span>
-        <span className="inline-block flex "><h1 className="text-white">how businesses</h1></span>
-        <span className="inline-block flex space-x-5"><h1 className="text-white">process </h1><h1 className="text-[#319d47]">payments.</h1></span>
+    <div className="flex justify-between bg-gradient-to-tr w-full from-[#011b06] ">
+        <div className="text-7xl pl-10 pt-10 ">
+        <span className=" flex  space-x-5 "><h1 className="text-white">We</h1><h1 className="text-[#319d47]">Changed</h1></span>
+        <span className=" flex "><h1 className="text-white">how businesses</h1></span>
+        <span className=" flex space-x-5"><h1 className="text-white">process </h1><h1 className="text-[#319d47]">payments.</h1></span>
 
         <span className="pt-10 inline-block leading-10  text-white text-[25px]"><p>Give your customers the power to choose.</p><p>The choice of how to pay and when to save</p></span>
         <div className="space-x-4 text-[18px]  mt-5">
