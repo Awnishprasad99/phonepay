@@ -29,9 +29,9 @@ const Last = () => {
       </div>
    
 <div className=""><Input/></div>
-    <div className="ml-10 space-y-5 py-20 ">
+    <div className="ml-10 space-y-5  ">
         <nav><p className="text-white text-center text-xl ml-5 ">FOLLOW {" "} US {" "} ON</p></nav>
-        <nav className="flex justify-center items-center"><img src={social} className="" alt="" /></nav>
+        <nav className="flex justify-center items-center "><img src={social} className="" alt="" /></nav>
       </div>
      
     </div>
