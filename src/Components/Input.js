@@ -11,18 +11,18 @@ const Input = () => {
   console.log("envkey",process.env.REACT_APP_SITE_KEY)
 
   return (
-    <div className="bg-[#3f4349] w-[300px]">
+    <div className="bg-[#3f4349] w-[300px] h-auto mb-5 pb-5  ">
       <form className="" onClick={(e) => e.preventDefault}>
-        <p className="text-2xl text-gray-100 mb-4 text-center">
+        <p className=" w-fit ml-10 pt-2 text-gray-100 mb-2 text-center">
           Join{" "}
           <span className="text-green-500 font-bold whitespace-nowrap">
             Fee
           </span>
           <span className="font-bold italic">Pass</span> Today!
         </p>
-        <div className="flex flex-col mx-auto justify-center items-center">
+        <div className="mx-auto">
   <div className=" max-w-sm">
-    <div className="mb-4">
+    <div className="mb-4 w-fit mx-auto">
       <p className="text-white">Company</p>
       <input
     
@@ -31,21 +31,22 @@ const Input = () => {
         value={company}
         onChange={(e) => setCompany(e.target.value)}
         placeholder="Company"
-        className="w-full px-3 py-2 text-white bg-black border-2 border-white rounded"
+        className=" px-3 py-1 text-white bg-black  rounded"
       />
     </div>
-    <div className="mb-4">
+    <div className="mb-4 w-fit mx-auto ">
       <p className="text-white">Phone</p>
       <input
-        type="number"
+   
+    type="number"
         required
         value={number}
         onChange={(e) => setNumber(e.target.value)}
         placeholder="Phone"
-        className="w-full px-3 py-2 text-white bg-black border-2 border-white rounded"
+        className=" px-3 py-1 text-white bg-black  rounded"
       />
     </div>
-    <div className="mb-4">
+    <div className="mb-4 w-fit mx-auto">
       <p className="text-white">Email</p>
       <input
         type="email"
@@ -53,11 +54,12 @@ const Input = () => {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email"
-        className="w-full px-3 py-2 text-white bg-black border-2 border-white rounded"
+        className=" px-3 py-1 text-white bg-black  rounded"
       />
-       <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} />
-      <button>Submit</button>
+
     </div>
+       <ReCAPTCHA className=" transform scale-75 w-fit " sitekey={process.env.REACT_APP_SITE_KEY} />
+      <button className="text-white   bg-black px-5 py-2  border-[1px] justify-between items-center flex flex-col border-white rounded-md  mx-auto">Submit</button>
   </div>
 </div>
 
