@@ -5,9 +5,9 @@ import hording from "../asset/hording.png";
 
 const Marketing = () => {
   return (
-    <div>
-      <div className="bg-white -mt-1 ">
-        <div className="text-center font-bold text-[50px] pt-2">
+    <div className="bg-white w-full -mt-16">
+      <div className="bg-white  ">
+        <div className="text-center font-bold text-[50px] pt-2 bg-white">
           <h1>
             Get All the{" "}
             <span className="text-[#006c32]">Marketing Materials</span>
@@ -52,10 +52,8 @@ const Marketing = () => {
           </button>
         </div>
   
-
       </div>
    
-
       <div></div>
       
     </div>
