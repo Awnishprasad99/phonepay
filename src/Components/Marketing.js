@@ -5,23 +5,23 @@ import hording from "../asset/hording.png";
 
 const Marketing = () => {
   return (
-    <div className="bg-white w-full -mt-16">
-      <div className="bg-white  ">
-        <div className="text-center font-bold text-[50px] pt-2 bg-white">
+    <div className="bg-white w-full -mt-16 -mb-10">
+      <div className="bg-white">
+        <div className="text-center font-bold text-4xl md:text-[50px] pt-2 bg-white">
           <h1>
             Get All the{" "}
             <span className="text-[#006c32]">Marketing Materials</span>
           </h1>
           <h1>
-            You Need to be a ou Need to be a{" "}
+            You Need to be a{" "}
             <span className="text-[#006c32]">SUCCESS.</span>
           </h1>
         </div>
 
-        <div className="flex justify-center item-center mt-10">
-          <img className="w-[800px]" src={feecard} alt="" />
+        <div className="flex justify-center items-center mt-10">
+          <img className="w-full max-w-[800px]" src={feecard} alt="" />
         </div>
-        <div className="flex flex-col items-center justify-center mx-auto text-center text-[20px] pt-5 space-x-2">
+        <div className="flex flex-col items-center justify-center mx-auto text-center text-base md:text-[20px] pt-5 space-y-2">
           <p>
             We will work with you to get you all the marketing and training
             materials you need to explain <span className="font-bold">FEE</span>
@@ -41,20 +41,20 @@ const Marketing = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center ">
-          <img className="w-[600px] ml-14 " src={mulcards} alt="" />
-          <img className="w-[600px]" src={hording} alt="" />
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mt-10">
+          <img className="w-full max-w-[600px] ml-0 md:ml-14" src={mulcards} alt="" />
+          <img className="w-full max-w-[600px]" src={hording} alt="" />
         </div>
 
         <div className="flex justify-center items-center">
-          <button className="rounded-2xl bg-[#018f17]  text-white px-[250px] mt-5 py-4 text-center -ml-16 font-semibold">
+          <button className="rounded-2xl bg-[#018f17] text-white px-4 py-2 md:px-[250px] md:py-4 mt-5 text-center font-semibold text-sm md:text-base w-auto ">
             FILL OUT YOUR ONLINE MERCHANT APPLICATION HERE
           </button>
         </div>
   
       </div>
    
-      <div></div>
+  
       
     </div>
   );
